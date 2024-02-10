@@ -4,7 +4,8 @@
 @import url("./header/line-3.css");
 @import url("./carousel/carousel.css");
 @import url("./carousel/block-info.css");
-@import url("./slider.css");
+@import url("./slider/slider.css");
+@import url("./slider/buttons.css");
 
 :root {
     --background-color: #ffffff;

@@ -37,6 +37,7 @@
 /* ======================================== */
 
 .block-slider > .slider-window {
+  position: relative;
   width: 80%;
   min-height: 500px;
   background-color: gray;
@@ -44,21 +45,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 
 .block-slider > .slider-window > .view-window {
+  position: relative;
   display: flex;
   background-color: white;
   width: 1500px;
   height: 450px;
-  overflow: hidden;
+  left: 0px;
+  transition: all ease 0.8s;
 }
 
 .block-slider > .slider-window > .view-window img {
-  position: relative;
   width: 360px;
   height: 450px;
   left: 0;
   object-fit:cover;
 }
+
+

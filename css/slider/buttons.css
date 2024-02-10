@@ -1,0 +1,35 @@
+.slider-window > .next {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    right: 50px;
+    z-index: 50;
+    cursor: pointer;
+    opacity: 90%;
+    transition: all 1s;
+    
+}
+
+.slider-window > .next:hover {
+    height: 65px;
+    width: 65px;
+    opacity: 100%;
+}
+
+.slider-window > .back {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    left: 50px;
+    z-index: 50;
+    transform: rotate(180deg);
+    cursor: pointer;
+    opacity: 90%;
+    transition: all 0.5s;
+}
+
+.slider-window > .back:hover {
+    height: 65px;
+    width: 65px;
+    opacity: 100%;
+}

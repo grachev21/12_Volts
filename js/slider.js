@@ -1,28 +1,18 @@
-const images = document.querySelectorAll('.slider img');
-let currentIndex = 0;
+let button_next = document.querySelector(".next");
+let value = 0;
 
-function showImage(index) {
-  images[currentIndex].classList.remove('active');
-  images[index].classList.add('active');
-  currentIndex = index;
-}
 
-document
-  .querySelector('.slider.controlls')
-  .addEventListener('click', function (event) {
-    if (event.target.classList.contains('prev')) {
-      let index = currentIndex - 1;
-      if (index < 0) {
-        index = images.length - 1;
-      }
-      showImage(index);
-    } else if (event.target.classList.contains('next')) {
-      let index = currentIndex + 1;
-      if (index >= images.length) {
-        index = 0;
-      }
-      showImage(index);
-    }
+button_next.addEventListener("click", 
+  function () {
+    block_management()
   });
 
-showImage(currentIndex);
+
+
+function block_management() {
+  console.log("next")
+  let = block = document.querySelector("html body div.base-block div.content div.block-slider div.slider-window div.view-window");
+  let style = window.getComputedStyle(block, null).right[0];
+  // console.log(style-400)
+  block.style.left = `${value=value - 360}px`;
+}
