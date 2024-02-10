@@ -1,0 +1,36 @@
+.opacity-block {
+    opacity: 0;
+}
+
+.carousel > .carousel-item > .img-block > .block-info-carousel {
+    position: absolute;
+    width: 700px;
+    height: 300px;
+    top: 150px;
+    left: 200px;
+    /* z-index: 51; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 2s ease;
+}
+
+
+.carousel > .carousel-item > .img-block > .block-info-carousel h1 {
+    color: white;
+    font-size: 60px;
+}
+
+
+.carousel > .carousel-item > .img-block > .block-info-carousel span {
+    font-size: 20px;
+    width: 200px;
+    padding: 20px;
+    color: white;
+    border: solid white 2px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}

@@ -1,0 +1,92 @@
+.line-2-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+.line-2 {
+    width: 80%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line-2 > .block-1 {
+    margin: 20px;
+}
+
+.line-2 > .block-1 > img {
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+    margin-right: 10px;
+}
+
+.line-2 > .block-2 > .search {
+    position: relative;
+
+}
+.line-2 > .block-2 > .search > input {
+    width: 700px;
+    background-color: #fff;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 18px 80px 18px 35px;
+}
+
+.line-2 > .block-2 > .search > img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 8px;
+    right: 15px;
+}
+
+.line-2 > .block-7 {
+    margin-right: 30px;
+}
+
+.line-2 > .block-1 {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.line-2 > .block-3, .block-4, .block-5, .block-6, .block-7 {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+}
+
+.line-2 > .block-3 > img {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+.line-2 > .block-4 > img {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+.line-2 > .block-5 > img {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+.line-2 > .block-6 > img {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}

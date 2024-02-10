@@ -1,0 +1,57 @@
+@import url("./settings.css");
+@import url("./header/line-1.css");
+@import url("./header/line-2.css");
+@import url("./header/line-3.css");
+@import url("./carousel/carousel.css");
+@import url("./carousel/block-info.css");
+@import url("./slider.css");
+
+:root {
+    --background-color: #ffffff;
+    --master-color: #4170c7;
+    --text-color: #4d4d5a;
+    --text-color-contrast: rgb(255, 255, 255);
+	--card-color: #6c98be;
+	--card-color-contrast:#445b85 ;
+	--mark-color: red;
+	--button-color: #697ce2;
+	--hover-color: rgb(57, 112, 109);
+	--hover-contrast-color: #738ec0;
+}
+
+
+/* base settings  */
+.base-block {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+
+.content {
+    width: 100%;
+}
+
+/* header */
+.header {
+    background-color: #e0ecfa;
+}
+
+
+
+/* .block-info-carousel {
+    color: white;
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    z-index: 3000;
+} */
+#description {
+    display: none;
+    position: relative;
+    z-index: 50;
+    background-color: white;
+    height: 400px;
+}

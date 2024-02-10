@@ -1,0 +1,29 @@
+.line-3 {
+    height: 250px;
+}
+
+.line-3 > .catalog {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 200px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.line-3 > .catalog > .block-product {
+    font-weight: bold;
+    width: 220px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.line-3 > .catalog > .block-product a {
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px
+}
